@@ -1,0 +1,178 @@
+2020-04-02 10:38:52,711 [django.request:222] [log:log_response] [WARNING]- Not Found: /
+2020-04-02 10:39:19,177 [django.request:222] [log:log_response] [WARNING]- Not Found: /
+2020-04-02 10:50:19,884 [django.request:222] [log:log_response] [WARNING]- Not Found: /admin
+2020-04-02 10:58:34,511 [django.request:222] [log:log_response] [WARNING]- Not Found: /projectManager
+2020-04-02 10:58:58,755 [django.request:222] [log:log_response] [WARNING]- Not Found: /projectList$
+2020-04-02 10:59:01,999 [django.request:222] [log:log_response] [ERROR]- Internal Server Error: /projectList
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: projectManager() missing 1 required positional argument: 'id'
+2020-04-02 11:04:38,846 [django.request:222] [log:log_response] [WARNING]- Not Found: /cate.html
+2020-04-02 11:04:41,076 [django.request:222] [log:log_response] [WARNING]- Not Found: /city.html
+2020-04-02 11:04:55,285 [django.request:222] [log:log_response] [WARNING]- Not Found: /
+2020-04-02 11:04:59,725 [django.request:222] [log:log_response] [WARNING]- Not Found: /index.html
+2020-04-02 11:11:57,984 [django.request:222] [log:log_response] [WARNING]- Not Found: /cate.html
+2020-04-02 11:11:59,564 [django.request:222] [log:log_response] [WARNING]- Not Found: /city.html
+2020-04-02 11:12:01,655 [django.request:222] [log:log_response] [WARNING]- Not Found: /admin-list.html
+2020-04-02 11:12:02,178 [django.request:222] [log:log_response] [WARNING]- Not Found: /admin-role.html
+2020-04-02 11:12:02,655 [django.request:222] [log:log_response] [WARNING]- Not Found: /admin-cate.html
+2020-04-02 11:12:03,084 [django.request:222] [log:log_response] [WARNING]- Not Found: /admin-rule.html
+2020-04-02 11:22:18,526 [django.request:222] [log:log_response] [ERROR]- Internal Server Error: /api/projectManager/0/
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceAutoTest\activator.py", line 14, in process
+    result = fun(request, index) if index else fun(request)
+  File "D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py", line 29, in wrapper
+    return func(request, *args, **kwargs)
+  File "D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py", line 153, in projectManager
+    return  render(request,'templates/project-list.html',context)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: templates/project-list.html
+2020-04-02 11:22:23,826 [django.request:222] [log:log_response] [ERROR]- Internal Server Error: /api/projectManager/0/
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceAutoTest\activator.py", line 14, in process
+    result = fun(request, index) if index else fun(request)
+  File "D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py", line 29, in wrapper
+    return func(request, *args, **kwargs)
+  File "D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py", line 153, in projectManager
+    return  render(request,'templates/project-list.html',context)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: templates/project-list.html
+2020-04-02 11:25:29,305 [django.request:222] [log:log_response] [WARNING]- Not Found: /
+2020-04-02 11:26:07,187 [django.request:222] [log:log_response] [WARNING]- Not Found: /
+2020-04-02 11:26:36,438 [django.request:222] [log:log_response] [WARNING]- Not Found: /index.html
+2020-04-02 11:26:50,911 [django.request:222] [log:log_response] [WARNING]- Not Found: /index.html
+2020-04-02 11:26:56,437 [django.request:222] [log:log_response] [WARNING]- Not Found: /index.html
+2020-04-02 11:27:05,255 [django.request:222] [log:log_response] [WARNING]- Not Found: /index.html
+2020-04-02 11:28:13,361 [django.request:222] [log:log_response] [WARNING]- Not Found: /index.html
+2020-04-02 11:28:16,269 [django.request:222] [log:log_response] [WARNING]- Not Found: /index.html
+2020-04-02 11:28:18,933 [django.request:222] [log:log_response] [WARNING]- Not Found: /index.html
+2020-04-02 11:28:20,561 [django.request:222] [log:log_response] [WARNING]- Not Found: /index.html
+2020-04-02 11:34:22,140 [django.request:222] [log:log_response] [WARNING]- Not Found: /index.html
+2020-04-02 11:58:14,241 [django.request:222] [log:log_response] [WARNING]- Not Found: /xxx.html
+2020-04-02 11:58:14,989 [django.request:222] [log:log_response] [WARNING]- Not Found: /xx.html
+2020-04-02 11:58:15,375 [django.request:222] [log:log_response] [WARNING]- Not Found: /xx.html
+2020-04-02 11:58:19,339 [django.request:222] [log:log_response] [WARNING]- Not Found: /index.html
+2020-04-02 11:58:38,218 [django.request:222] [log:log_response] [WARNING]- Not Found: /index.html
+2020-04-02 11:59:03,196 [django.request:222] [log:log_response] [WARNING]- Not Found: /index.html
+2020-04-02 11:59:07,579 [django.request:222] [log:log_response] [WARNING]- Not Found: /
+2020-04-02 12:01:13,395 [django.request:222] [log:log_response] [WARNING]- Not Found: /
+2020-04-02 12:01:22,733 [django.request:222] [log:log_response] [WARNING]- Not Found: /% url 'index'%
+2020-04-02 12:03:34,822 [django.request:222] [log:log_response] [WARNING]- Not Found: /% url 'index'%
+2020-04-02 12:03:37,241 [django.request:222] [log:log_response] [WARNING]- Not Found: /% url 'index'%
+2020-04-02 12:03:42,746 [django.request:222] [log:log_response] [WARNING]- Not Found: /% url 'index'%
+2020-04-02 12:05:39,149 [django.request:222] [log:log_response] [ERROR]- Internal Server Error: /index
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py", line 29, in wrapper
+    return func(request, *args, **kwargs)
+  File "D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py", line 41, in getIndex
+    return  render(request,'index.html',context)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\urls\base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\urls\resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+2020-04-02 12:06:34,950 [django.request:222] [log:log_response] [WARNING]- Not Found: /
+2020-04-02 12:06:52,610 [django.request:222] [log:log_response] [WARNING]- Not Found: /
+2020-04-02 12:06:56,786 [django.request:222] [log:log_response] [WARNING]- Not Found: /
+2020-04-02 14:22:36,245 [django.request:222] [log:log_response] [WARNING]- Not Found: /xxx.html
+2020-04-02 14:25:57,242 [django.request:222] [log:log_response] [WARNING]- Not Found: /xxx.html
+2020-04-02 14:25:58,014 [django.request:222] [log:log_response] [WARNING]- Not Found: /xx.html
+2020-04-02 14:26:32,702 [django.request:222] [log:log_response] [WARNING]- Not Found: /environ-add.html
+2020-04-02 14:27:11,365 [django.request:222] [log:log_response] [WARNING]- Not Found: /xx.html
+2020-04-02 14:27:14,062 [django.request:222] [log:log_response] [WARNING]- Not Found: /environ-add.html
+2020-04-02 14:27:37,768 [django.request:222] [log:log_response] [WARNING]- Not Found: /templates/environ-add.html
+2020-04-02 15:31:15,205 [django.request:222] [log:log_response] [WARNING]- Not Found: /unicode.html
+2020-04-02 15:31:18,083 [django.request:222] [log:log_response] [WARNING]- Not Found: /admin-role.html
+2020-04-02 15:31:18,628 [django.request:222] [log:log_response] [WARNING]- Not Found: /admin-cate.html
+2020-04-02 15:31:19,369 [django.request:222] [log:log_response] [WARNING]- Not Found: /admin-rule.html
+2020-04-03 08:49:20,552 [django.request:222] [log:log_response] [WARNING]- Not Found: /test_web$
+2020-04-03 08:54:51,948 [django.request:222] [log:log_response] [ERROR]- Internal Server Error: /test_web
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py", line 612, in test_web
+    return render(request,'testbet-add.html')
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: testbet-add.html
+2020-04-03 08:55:24,234 [django.request:222] [log:log_response] [WARNING]- Not Found: /ajaxtest
+2020-04-07 09:32:54,401 [django.request:222] [log:log_response] [WARNING]- Not Found: /echarts1.html
+2020-04-07 09:37:42,204 [django.request:222] [log:log_response] [WARNING]- Not Found: /
+2020-04-07 15:36:22,510 [django.request:222] [log:log_response] [WARNING]- Not Found: /index/
+2020-04-07 15:36:25,243 [django.request:222] [log:log_response] [WARNING]- Not Found: /
+2020-04-07 15:36:35,012 [django.request:222] [log:log_response] [WARNING]- Not Found: /
+2020-04-07 15:36:43,499 [django.request:222] [log:log_response] [WARNING]- Not Found: /
+2020-04-07 15:36:55,880 [django.request:222] [log:log_response] [WARNING]- Not Found: /
+2020-04-07 15:37:07,631 [django.request:222] [log:log_response] [WARNING]- Not Found: /
+2020-04-07 15:37:50,599 [django.request:222] [log:log_response] [WARNING]- Not Found: /

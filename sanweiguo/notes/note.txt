@@ -1,0 +1,102 @@
+测试测试
+数据库迁移：python manage.py makemigrations
+            python manage.py migrate
+腾讯云coding
+https://guowydev.coding.net/user
+zengqi
+Zzengqi!123
+
+数据库
+地址：sh-cdb-llbubds4.sql.tencentcdb.com:61278
+用户名：guowy_test
+密码：DNwEboyQjq7kM7JR
+
+pip install  -i "https://pypi.doubanio.com/simple/" requests
+并发
+https://www.jianshu.com/p/Ch5xpk
+如：一个100w访问的服务，每天访问集中白天8小时，每个用户大约会请求3个接口，每天早上9点是峰值。
+首先计算日均请求数（每秒）
+按8小时 100w访问量、平均3个接口请求计算
+每秒日均请求数=100w（访问量）* 3（每个访问量平均请求接口数）/8（小时）/3600（切换成秒），结果就是每秒请求100次。
+
+按接口200ms返回，tps需要> 100 * 200/1000，即>20就行了。
+
+如考虑日常服务的峰值，则按4 * 日均，即每秒请求400次，则tps>80即可，因此可推荐按tps=100来做接口的压力测试。
+
+相关总结
+时间段越短，数据也越接近于瞬间并发
+如果用整日的数据来计算总请求数，需要按照日流量分布来估算一个峰值数据，日常APP可考虑使用 峰值=4 * 日均【当然还是要看你具体的访问量】
+如果觉得以上繁杂，反正你也可以参考这个结论：
+
+没啥人用的服务 tps 20，返回有300ms就行了
+十万到百万级的服务，响应能达到tps50 /200ms就可以了
+后台服务，能达到tps 20 / 200ms即可（通常后台同时使用也没多少人）
+秒杀类的短时间高并发……TPS100或200 在 100ms内响应 应该也能撑一段时间（具体情况还是要看业务量）
+
+
+
+创建项目
+django-admin startproject 项目名称
+
+创建app
+django-admin startapp app名称
+
+注册app
+setting里添加app
+
+运行项目
+python manage.py runserver
+
+数据库
+python manage.py makemigrations
+
+python manage.py migrate
+
+
+
+pychar配置github
+安装git
+
+在本地创建ssh key
+ssh-keygen -t rsa -C zengqi@yeechoo.com
+查看ssh
+cat ~/.ssh/id_rsa.pub
+验证是否成功
+ssh -T git@github.com
+# 1.版本回退
+# 1.1. 查看提交日志
+git log
+# 简化输出信息
+git log --pretty=oneline
+# 查看每一次的提交记录，即使是回退的也可以查看
+git reflog
+# -----------------------------------------------------------------------
+# 1.2. 回退版本
+# 回退到上一个版本
+git reset --hard HEAD^
+# 回退到指定的版本
+git reset --hard commit_id
+# 撤销到暂存区
+git reset --soft HEAD@{1}
+# 干掉这个修改
+git reset --hard HEAD@{1}  # 或 git reset HEAD~2
+
+
+1.Pycharm中快捷键大全，遇到一个更新一个
+撤销与反撤销：Ctrl + z，Ctrl + Shift + z
+缩进、不缩进：Tab、Shift + tab
+运行：Shift + F10
+批量注释：Ctrl + /
+快速查看文档：Ctrl + q
+当光标在代码中间，如何回车到下一行：Shift + 回车
+当鼠标在代码下一行非开头位置，如何跳转到上一行末尾：Ctrl + backspace（退格键）
+当一行代码太长时，我们如何切换到下一行，但是格式不变：Ctrl + 回车
+
+github：
+email：zengqi@yeechoo.com
+用户名：zengqi00
+密码：Zzengqi123
+
+805117377@qq.com
+zengqi000
+Zzengqi123

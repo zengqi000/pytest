@@ -1,0 +1,99 @@
+2020-04-03 08:49:13,881----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /index HTTP/1.1" 200 12486 
+2020-04-03 08:49:13,937----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/css/font.css HTTP/1.1" 200 505 
+2020-04-03 08:49:13,937----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/css/xadmin.css HTTP/1.1" 200 10034 
+2020-04-03 08:49:13,963----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/lib/layui/layui.js HTTP/1.1" 200 6542 
+2020-04-03 08:49:13,972----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/lib/layui/css/layui.css HTTP/1.1" 200 60227 
+2020-04-03 08:49:13,990----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/js/xadmin.js HTTP/1.1" 200 6107 
+2020-04-03 08:49:14,025----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/js/jquery.min.js HTTP/1.1" 200 84355 
+2020-04-03 08:49:14,150----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /welcome HTTP/1.1" 200 7961 
+2020-04-03 08:49:14,152----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/lib/layui/lay/modules/form.js HTTP/1.1" 200 7925 
+2020-04-03 08:49:14,176----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/lib/layui/font/iconfont.woff?v=226_rc2 HTTP/1.1" 200 26840 
+2020-04-03 08:49:14,181----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/fonts/iconfont.woff HTTP/1.1" 200 30200 
+2020-04-03 08:49:14,254----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/lib/layui/lay/modules/layer.js HTTP/1.1" 200 22063 
+2020-04-03 08:49:14,310----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/lib/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 14425 
+2020-04-03 08:49:14,325----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/lib/layui/lay/modules/element.js HTTP/1.1" 200 7264 
+2020-04-03 08:49:14,355----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /favicon.ico HTTP/1.1" 302 0 
+2020-04-03 08:49:14,363----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/favicon.ico HTTP/1.1" 200 1424 
+2020-04-03 08:49:20,552----日志级别:WARNING---行号: 222 ---函数名:log_response--日志内容: Not Found: /test_web$ 
+2020-04-03 08:49:20,553----日志级别:WARNING---行号: 157 ---函数名:log_message--日志内容: "GET /test_web$ HTTP/1.1" 404 3574 
+2020-04-03 08:49:30,030----日志级别:INFO---行号: 222 ---函数名:trigger_reload--日志内容: D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\urls.py changed, reloading. 
+2020-04-03 08:49:33,562----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /test_web HTTP/1.1" 200 7943 
+2020-04-03 08:52:16,470----日志级别:INFO---行号: 222 ---函数名:trigger_reload--日志内容: D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py changed, reloading. 
+2020-04-03 08:52:18,031----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /test_web HTTP/1.1" 200 6644 
+2020-04-03 08:52:18,088----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /favicon.ico HTTP/1.1" 302 0 
+2020-04-03 08:52:18,094----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/favicon.ico HTTP/1.1" 200 1424 
+2020-04-03 08:52:57,700----日志级别:INFO---行号: 222 ---函数名:trigger_reload--日志内容: D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py changed, reloading. 
+2020-04-03 08:52:58,935----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /test_web HTTP/1.1" 200 12143 
+2020-04-03 08:52:59,002----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/lib/layui/lay/modules/laydate.js HTTP/1.1" 200 27337 
+2020-04-03 08:52:59,038----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/lib/layui/css/modules/laydate/default/laydate.css?v=5.0.9 HTTP/1.1" 200 7537 
+2020-04-03 08:52:59,044----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /favicon.ico HTTP/1.1" 302 0 
+2020-04-03 08:52:59,047----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/favicon.ico HTTP/1.1" 200 1424 
+2020-04-03 08:53:01,754----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /api/TestcaseAdd HTTP/1.1" 301 0 
+2020-04-03 08:53:01,756----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/lib/layui/css/modules/layer/default/loading-1.gif HTTP/1.1" 200 701 
+2020-04-03 08:53:01,760----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/lib/layui/css/modules/layer/default/icon.png HTTP/1.1" 200 11493 
+2020-04-03 08:53:01,791----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /api/TestcaseAdd/ HTTP/1.1" 200 14179 
+2020-04-03 08:53:56,252----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /api/TestcaseAdd/ HTTP/1.1" 200 14179 
+2020-04-03 08:54:07,087----日志级别:INFO---行号: 222 ---函数名:trigger_reload--日志内容: D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py changed, reloading. 
+2020-04-03 08:54:08,319----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /test_web HTTP/1.1" 200 14179 
+2020-04-03 08:54:08,466----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/lib/layui/lay/modules/layedit.js HTTP/1.1" 200 12635 
+2020-04-03 08:54:08,483----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /favicon.ico HTTP/1.1" 302 0 
+2020-04-03 08:54:08,487----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/favicon.ico HTTP/1.1" 200 1424 
+2020-04-03 08:54:50,519----日志级别:INFO---行号: 222 ---函数名:trigger_reload--日志内容: D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py changed, reloading. 
+2020-04-03 08:54:51,948----日志级别:ERROR---行号: 222 ---函数名:log_response--日志内容: Internal Server Error: /test_web 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py", line 612, in test_web
+    return render(request,'testbet-add.html')
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: testbet-add.html
+2020-04-03 08:54:51,950----日志级别:ERROR---行号: 157 ---函数名:log_message--日志内容: "GET /test_web HTTP/1.1" 500 84133 
+2020-04-03 08:54:52,071----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /favicon.ico HTTP/1.1" 302 0 
+2020-04-03 08:54:52,076----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/favicon.ico HTTP/1.1" 200 1424 
+2020-04-03 08:55:03,738----日志级别:INFO---行号: 222 ---函数名:trigger_reload--日志内容: D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py changed, reloading. 
+2020-04-03 08:55:05,502----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /test_web HTTP/1.1" 200 4928 
+2020-04-03 08:55:05,861----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /favicon.ico HTTP/1.1" 302 0 
+2020-04-03 08:55:05,865----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/favicon.ico HTTP/1.1" 200 1424 
+2020-04-03 08:55:20,329----日志级别:INFO---行号: 222 ---函数名:trigger_reload--日志内容: D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py changed, reloading. 
+2020-04-03 08:55:21,900----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /test_web HTTP/1.1" 200 1029 
+2020-04-03 08:55:21,955----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /favicon.ico HTTP/1.1" 302 0 
+2020-04-03 08:55:21,961----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/favicon.ico HTTP/1.1" 200 1424 
+2020-04-03 08:55:24,234----日志级别:WARNING---行号: 222 ---函数名:log_response--日志内容: Not Found: /ajaxtest 
+2020-04-03 08:55:24,235----日志级别:WARNING---行号: 157 ---函数名:log_message--日志内容: "POST /ajaxtest HTTP/1.1" 404 3571 
+2020-04-03 08:55:34,479----日志级别:INFO---行号: 222 ---函数名:trigger_reload--日志内容: D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py changed, reloading. 
+2020-04-03 08:55:35,919----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /test_web HTTP/1.1" 200 5392 
+2020-04-03 08:55:35,980----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /favicon.ico HTTP/1.1" 302 0 
+2020-04-03 08:55:35,986----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/favicon.ico HTTP/1.1" 200 1424 
+2020-04-03 08:55:39,006----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /api/projectAdd HTTP/1.1" 301 0 
+2020-04-03 08:55:39,042----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /api/projectAdd/ HTTP/1.1" 200 4076 
+2020-04-03 08:55:52,677----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /test_web HTTP/1.1" 200 5392 
+2020-04-03 08:55:52,691----日志级别:INFO---行号: 222 ---函数名:trigger_reload--日志内容: D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py changed, reloading. 
+2020-04-03 08:55:53,978----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /favicon.ico HTTP/1.1" 302 0 
+2020-04-03 08:55:53,982----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/favicon.ico HTTP/1.1" 200 1424 
+2020-04-03 08:55:54,443----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /test_web HTTP/1.1" 200 725 
+2020-04-03 08:55:54,483----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /favicon.ico HTTP/1.1" 302 0 
+2020-04-03 08:55:54,486----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/favicon.ico HTTP/1.1" 200 1424 
+2020-04-03 08:55:56,381----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /test_web HTTP/1.1" 200 725 
+2020-04-03 08:55:56,416----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /favicon.ico HTTP/1.1" 302 0 
+2020-04-03 08:55:56,420----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/favicon.ico HTTP/1.1" 200 1424 
+2020-04-03 08:56:05,909----日志级别:INFO---行号: 222 ---函数名:trigger_reload--日志内容: D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py changed, reloading. 
+2020-04-03 08:56:07,286----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /test_web HTTP/1.1" 200 5074 
+2020-04-03 08:56:07,337----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /favicon.ico HTTP/1.1" 302 0 
+2020-04-03 08:56:07,341----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/favicon.ico HTTP/1.1" 200 1424 
+2020-04-03 08:56:18,191----日志级别:INFO---行号: 222 ---函数名:trigger_reload--日志内容: D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py changed, reloading. 
+2020-04-03 08:56:19,662----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /test_web HTTP/1.1" 200 6560 
+2020-04-03 08:56:19,706----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /favicon.ico HTTP/1.1" 302 0 
+2020-04-03 08:56:19,711----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/favicon.ico HTTP/1.1" 200 1424 
+2020-04-03 08:56:36,853----日志级别:INFO---行号: 222 ---函数名:trigger_reload--日志内容: D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py changed, reloading. 
+2020-04-03 08:56:38,166----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /test_web HTTP/1.1" 200 7943 
+2020-04-03 08:56:38,214----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /favicon.ico HTTP/1.1" 302 0 
+2020-04-03 08:56:38,219----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/favicon.ico HTTP/1.1" 200 1424 

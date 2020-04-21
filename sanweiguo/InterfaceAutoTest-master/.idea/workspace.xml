@@ -1,0 +1,1119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3238f872-1a70-48d5-b7f5-f9a451af5cbb" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterfaceAutoTest/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterfaceAutoTest/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterfaceTestManage/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterfaceTestManage/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterfaceTestManage/migrations/0002_auto_20181017_2123.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterfaceTestManage/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterfaceTestManage/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterfaceTestManage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterfaceTestManage/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/script.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirement.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirement.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/environ-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/environ-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/project-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/project-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/testCase-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/testCase-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/testcase-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/testcase-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/user-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user-add.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/InterfaceAutoTest$test.coverage" NAME="test Coverage Results" MODIFIED="1537515348308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/HttpRunnerManager/ApiManager" />
+    <SUITE FILE_PATH="coverage/InterfaceAutoTest$urls.coverage" NAME="urls Coverage Results" MODIFIED="1534749139559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceTestManage" />
+    <SUITE FILE_PATH="coverage/InterfaceAutoTest$managers.coverage" NAME="managers Coverage Results" MODIFIED="1536818270606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/HttpRunnerManager" />
+    <SUITE FILE_PATH="coverage/InterfaceAutoTest$tests.coverage" NAME="tests Coverage Results" MODIFIED="1535074581348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceTestManage" />
+    <SUITE FILE_PATH="coverage/InterfaceAutoTest$lauchTime.coverage" NAME="lauchTime Coverage Results" MODIFIED="1538282307461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/appSpecialtest" />
+    <SUITE FILE_PATH="coverage/InterfaceAutoTest$views.coverage" NAME="views Coverage Results" MODIFIED="1540109718886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceTestManage" />
+    <SUITE FILE_PATH="coverage/InterfaceAutoTest$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1540127095551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceTestManage" />
+    <SUITE FILE_PATH="coverage/InterfaceAutoTest$lotterySpider.coverage" NAME="lotterySpider Coverage Results" MODIFIED="1538979670005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/spider" />
+    <SUITE FILE_PATH="coverage/InterfaceAutoTest$debug.coverage" NAME="debug Coverage Results" MODIFIED="1540392567060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="InterfaceAutoTest" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/InterfaceTestManage/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="478" column="31" lean-forward="true" selection-start-line="478" selection-start-column="31" selection-end-line="478" selection-end-column="31" />
+              <folding>
+                <element signature="e#14#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>LOGGING</find>
+      <find>loggers</find>
+      <find>testCaseList</find>
+      <find>if version &gt;= 14 and version &gt; best_version</find>
+      <find>datab</find>
+      <find>register</find>
+      <find>login</find>
+      <find>/login</find>
+      <find>登录</find>
+      <find>jquery.min.map</find>
+      <find>request.body</find>
+      <find>layui-layer-ico5</find>
+      <find>请稍后</find>
+      <find>格式</find>
+      <find>upda</find>
+      <find>update</find>
+      <find>成功</find>
+      <find>run_testcase</find>
+      <find>show_r</find>
+      <find>resp_result_</find>
+      <find>#btnResult</find>
+      <find>btnResult</find>
+      <find>show_result</find>
+      <find>select</find>
+      <find>show</find>
+      <find>DJANGO_SETTINGS_MODULE</find>
+      <find>reg</find>
+      <find>依赖数据</find>
+      <find>dataFormat</find>
+      <find>dataformat</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>environmentAdd</replace>
+      <replace>environ_obj</replace>
+      <replace>EnviromentManager</replace>
+      <replace>{{</replace>
+      <replace>environ</replace>
+      <replace>environ_info</replace>
+      <replace>ment</replace>
+      <replace>success</replace>
+      <replace>testCase</replace>
+      <replace>testCaseList</replace>
+      <replace>testcase</replace>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\InterfaceAutoTest</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/InterfaceTestManage/url.py" />
+        <option value="$PROJECT_DIR$/static/css/xadmin.css" />
+        <option value="$PROJECT_DIR$/InterfaceAutoTest/redirectHtml.py" />
+        <option value="$PROJECT_DIR$/templates/welcome.html" />
+        <option value="E:/HttpRunnerManager/HttpRunnerManager/urls.py" />
+        <option value="$PROJECT_DIR$/InterfaceAutoTest/urls.py" />
+        <option value="$PROJECT_DIR$/InterfaceAutoTest/activator.py" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/templates/test.html" />
+        <option value="$PROJECT_DIR$/static/js/xadmin.js" />
+        <option value="$PROJECT_DIR$/InterfaceTestManage/migrations/0003_environment.py" />
+        <option value="E:/HttpRunnerManager/templates/base.html" />
+        <option value="$PROJECT_DIR$/InterfaceTestManage/migrations/0001_initial.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="E:/HttpRunnerManager/HttpRunnerManager/settings.py" />
+        <option value="E:/HttpRunnerManager/requirements.txt" />
+        <option value="E:/HttpRunnerManager/ApiManager/views.py" />
+        <option value="$PROJECT_DIR$/InterfaceAutoTest/settings.py" />
+        <option value="E:/HttpRunnerManager/ApiManager/tasks.py" />
+        <option value="E:/HttpRunnerManager/ApiManager/public.pem" />
+        <option value="$PROJECT_DIR$/InterfaceTestManage/utils/runmain.py" />
+        <option value="$PROJECT_DIR$/templates/testbet_add.html" />
+        <option value="$PROJECT_DIR$/InterfaceTestManage/tests.py" />
+        <option value="E:/HttpRunnerManager/ApiManager/test.py" />
+        <option value="E:/appSpecialtest/lauchTime.py" />
+        <option value="E:/appSpecialtest/HybridScript.py" />
+        <option value="E:/HttpRunnerManager/ApiManager/admin.py" />
+        <option value="$PROJECT_DIR$/InterfaceAutoTest/test.yml" />
+        <option value="D:/spider/lotterySpider.py" />
+        <option value="$PROJECT_DIR$/InterfaceTestManage/apps.py" />
+        <option value="$PROJECT_DIR$/InterfaceTestManage/urls.py" />
+        <option value="$PROJECT_DIR$/templates/project-add.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$USER_HOME$/PycharmProjects/HttpRunnerManager/static/assets/js/test.js" />
+        <option value="$USER_HOME$/PycharmProjects/HttpRunnerManager/static/assets/css/admin.css" />
+        <option value="$USER_HOME$/PycharmProjects/HttpRunnerManager/static/assets/css/common.css" />
+        <option value="$USER_HOME$/PycharmProjects/HttpRunnerManager/ApiManager/models.py" />
+        <option value="$PROJECT_DIR$/templates/environ-add.html" />
+        <option value="$PROJECT_DIR$/templates/environ-list.html" />
+        <option value="$PROJECT_DIR$/templates/project-list.html" />
+        <option value="$PROJECT_DIR$/templates/testCase-list.html" />
+        <option value="$PROJECT_DIR$/InterfaceTestManage/test.py" />
+        <option value="$PROJECT_DIR$/InterfaceAutoTest/__init__.py" />
+        <option value="$PROJECT_DIR$/requirement.txt" />
+        <option value="$PROJECT_DIR$/lib.txt" />
+        <option value="$PROJECT_DIR$/templates/user-add.html" />
+        <option value="$PROJECT_DIR$/InterfaceTestManage/models.py" />
+        <option value="$PROJECT_DIR$/templates/testcase-add.html" />
+        <option value="$PROJECT_DIR$/InterfaceTestManage/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="InterfaceAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InterfaceAutoTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InterfaceAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InterfaceAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="v&#9;FILE&#9;file://D:/code/InterfaceAutoTest/InterfaceTestManage/views.py&#10;mode&#9;FILE&#9;file://D:/code/InterfaceAutoTest/InterfaceTestManage/models.py&#10;TEST&#9;FILE&#9;file://D:/code/InterfaceAutoTest/templates/testcase-add.html&#10;test&#9;FILE&#9;file://D:/code/InterfaceAutoTest/templates/testCase-list.html&#10;user&#9;FILE&#9;file://D:/code/InterfaceAutoTest/templates/user-add.html&#10;view&#9;FILE&#9;file://D:/code/InterfaceAutoTest/InterfaceTestManage/views.py&#10;models&#9;FILE&#9;file://D:/code/InterfaceAutoTest/InterfaceTestManage/models.py&#10;model&#9;FILE&#9;file://E:/InterfaceAutoTest/InterfaceTestManage/models.py&#10;proj&#9;FILE&#9;file://E:/InterfaceAutoTest/templates/project-list.html&#10;E&#9;FILE&#9;file://E:/InterfaceAutoTest/templates/environ-add.html&#10;list&#9;FILE&#9;file://E:/InterfaceAutoTest/templates/environ-list.html&#10;en&#9;FILE&#9;file://E:/InterfaceAutoTest/templates/environ-add.html&#10;testca&#9;FILE&#9;file://E:/InterfaceAutoTest/templates/testCase-list.html&#10;view.py&#9;FILE&#9;file://E:/InterfaceAutoTest/InterfaceTestManage/views.py&#10;model.py&#9;FILE&#9;file://E:/InterfaceAutoTest/InterfaceTestManage/models.py&#10;testcase&#9;FILE&#9;file://E:/InterfaceAutoTest/templates/testcase-add.html&#10;testc&#9;null&#9;null&#10;base&#9;FILE&#9;file://E:/InterfaceAutoTest/templates/base.html&#10;vie&#9;FILE&#9;file://E:/InterfaceAutoTest/InterfaceTestManage/views.py&#10;add&#9;FILE&#9;file://E:/InterfaceAutoTest/templates/user-add.html&#10;mo&#9;FILE&#9;file://E:/InterfaceAutoTest/InterfaceTestManage/models.py&#10;regi&#9;null&#9;null&#10;setting&#9;FILE&#9;file://D:/InterfaceAutoTest/InterfaceAutoTest/settings.py&#10;sett&#9;FILE&#9;file://D:/InterfaceAutoTest/InterfaceAutoTest/settings.py&#10;seting&#9;null&#9;null&#10;settings&#9;FILE&#9;file://E:/HttpRunnerManager/HttpRunnerManager/settings.py&#10;project&#9;FILE&#9;file://D:/InterfaceAutoTest/templates/project-add.html&#10;vi&#9;FILE&#9;file://D:/InterfaceAutoTest/InterfaceTestManage/views.py&#10;index&#9;FILE&#9;file://D:/InterfaceAutoTest/templates/index.html&#10;pro&#9;FILE&#9;file://D:/InterfaceAutoTest/templates/project-list.html&#10;environ&#9;FILE&#9;file://D:/InterfaceAutoTest/templates/environ-add.html&#10;Base&#9;FILE&#9;file://E:/HttpRunnerManager/templates/base.html&#10;envior&#9;null&#9;null&#10;proa&#9;FILE&#9;file://D:/InterfaceAutoTest/templates/project-add.html&#10;project a&#9;FILE&#9;file://D:/InterfaceAutoTest/templates/project-add.html&#10;base.html&#9;FILE&#9;file://E:/HttpRunnerManager/templates/base.html&#10;projectL&#9;FILE&#9;file://D:/InterfaceAutoTest/templates/project-list.html&#10;log&#9;FILE&#9;file://D:/InterfaceAutoTest/templates/login.html&#10;login&#9;FILE&#9;file://D:/InterfaceAutoTest/templates/login.html&#10;tests&#9;FILE&#9;file://D:/InterfaceAutoTest/InterfaceTestManage/tests.py&#10;views&#9;FILE&#9;file://D:/InterfaceAutoTest/InterfaceTestManage/views.py&#10;index.html&#9;FILE&#9;file://D:/InterfaceAutoTest/templates/index.html&#10;index.&#9;FILE&#9;file://D:/InterfaceAutoTest/templates/index.html" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/manage.py" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\InterfaceAutoTest" />
+      <recent name="E:\InterfaceAutoTest\static\js" />
+      <recent name="E:\appSpecialtest" />
+      <recent name="D:\InterfaceAutoTest\templates" />
+      <recent name="D:\InterfaceAutoTest\InterfaceAutoTest" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.debug">
+    <configuration name="debug" type="PythonConfigurationType" factoryName="Python">
+      <module name="InterfaceAutoTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\python\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="lauchTime" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="appSpecialtest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../appSpecialtest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../appSpecialtest/lauchTime.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="lotterySpider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../spider" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../spider/lotterySpider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="InterfaceAutoTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterfaceTestManage" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterfaceTestManage/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="HttpRunnerManager" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../HttpRunnerManager/ApiManager" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../HttpRunnerManager/ApiManager/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="InterfaceAutoTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterfaceTestManage" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterfaceTestManage/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="InterfaceTest" type="Python.DjangoServer" factoryName="Django server">
+      <module name="InterfaceAutoTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="InterfaceAutoTest.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\python\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.InterfaceTest" />
+      <item itemvalue="Python.debug" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.lauchTime" />
+      <item itemvalue="Python.lotterySpider" />
+      <item itemvalue="Python.views" />
+      <item itemvalue="Python.test (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.views" />
+        <item itemvalue="Python.lotterySpider" />
+        <item itemvalue="Python.lauchTime" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3238f872-1a70-48d5-b7f5-f9a451af5cbb" name="Default" comment="" />
+      <created>1533531097118</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533531097118</updated>
+    </task>
+    <task id="LOCAL-00001" summary="添加templates">
+      <created>1533537318559</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1533537318559</updated>
+    </task>
+    <task id="LOCAL-00002" summary="登录页面的改造">
+      <created>1533548505749</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1533548505749</updated>
+    </task>
+    <task id="LOCAL-00003" summary="登录页面的改造">
+      <created>1533636921993</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1533636921993</updated>
+    </task>
+    <task id="LOCAL-00004" summary="注册和登录的一些页面">
+      <created>1534233766768</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1534233766768</updated>
+    </task>
+    <task id="LOCAL-00005" summary="注册和登录的一些页面">
+      <created>1534234607480</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1534234607480</updated>
+    </task>
+    <task id="LOCAL-00006" summary="路径的集合配置和页码的生成">
+      <created>1534760783918</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1534760783918</updated>
+    </task>
+    <task id="LOCAL-00007" summary="路径的集合配置和页码的生成">
+      <created>1534760962485</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1534760962485</updated>
+    </task>
+    <task id="LOCAL-00008" summary="路径的集合配置和页码的生成">
+      <created>1534761419521</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1534761419522</updated>
+    </task>
+    <task id="LOCAL-00009" summary="优化项目新增功能">
+      <created>1534933970394</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1534933970394</updated>
+    </task>
+    <task id="LOCAL-00010" summary="项目的增删改功能完善了">
+      <created>1535082979118</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1535082979118</updated>
+    </task>
+    <task id="LOCAL-00011" summary="测试环境的增删改功能完善了">
+      <created>1535107009147</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1535107009155</updated>
+    </task>
+    <task id="LOCAL-00012" summary="删除全部的完成和测试用例的建表">
+      <created>1535367772318</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1535367772318</updated>
+    </task>
+    <task id="LOCAL-00013" summary="删除全部的完成和测试用例的建表">
+      <created>1535422873278</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1535422873278</updated>
+    </task>
+    <task id="LOCAL-00014" summary="测试用例新增页面的改造">
+      <created>1535441249283</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1535441249283</updated>
+    </task>
+    <task id="LOCAL-00015" summary="用例新增">
+      <created>1535451862843</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1535451862844</updated>
+    </task>
+    <task id="LOCAL-00016" summary="测试用例新增">
+      <created>1537438273124</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1537438273124</updated>
+    </task>
+    <task id="LOCAL-00017" summary="测试用例新增页面的改造">
+      <created>1537438300762</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1537438300762</updated>
+    </task>
+    <task id="LOCAL-00018" summary="启动时间的adb测试">
+      <created>1537524040860</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1537524040860</updated>
+    </task>
+    <task id="LOCAL-00019" summary="test">
+      <created>1539782144472</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1539782144472</updated>
+    </task>
+    <task id="LOCAL-00020" summary="test">
+      <created>1539786337685</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1539786337685</updated>
+    </task>
+    <task id="LOCAL-00021" summary="改动注册的一些代码">
+      <created>1539786372921</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1539786372921</updated>
+    </task>
+    <task id="LOCAL-00022" summary="改动">
+      <created>1539789897127</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1539789897127</updated>
+    </task>
+    <task id="LOCAL-00023" summary="一条用例的执行成功。">
+      <created>1539872484499</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1539872484500</updated>
+    </task>
+    <task id="LOCAL-00024" summary="用例的执行成功。">
+      <created>1539873824170</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1539873824170</updated>
+    </task>
+    <task id="LOCAL-00025" summary="用例的执行成功。">
+      <created>1539873841864</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1539873841864</updated>
+    </task>
+    <task id="LOCAL-00026" summary="注册信息弹框问题修复">
+      <created>1539876222143</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1539876222143</updated>
+    </task>
+    <task id="LOCAL-00027" summary="注册信息弹框问题修复">
+      <created>1539876332122</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1539876332122</updated>
+    </task>
+    <task id="LOCAL-00028" summary="修复">
+      <created>1540015194304</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1540015194304</updated>
+    </task>
+    <task id="LOCAL-00029" summary="修复">
+      <created>1540016650080</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1540016650080</updated>
+    </task>
+    <task id="LOCAL-00030" summary="完善用例运行，页面的情况">
+      <created>1540045376246</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1540045376246</updated>
+    </task>
+    <task id="LOCAL-00031" summary="服务返回的乱码解决，和页面js转义的输出显示">
+      <created>1540051448738</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1540051448738</updated>
+    </task>
+    <task id="LOCAL-00032" summary="更新">
+      <created>1540104133072</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1540104133072</updated>
+    </task>
+    <task id="LOCAL-00033" summary="更新">
+      <created>1540106191078</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1540106191078</updated>
+    </task>
+    <task id="LOCAL-00034" summary="递归算法，查找用例和匹配用例">
+      <created>1540128367162</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1540128367162</updated>
+    </task>
+    <task id="LOCAL-00035" summary="pip的第三方库">
+      <created>1540306492463</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1540306492463</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49498567" weight="0.28712872" />
+      <window_info anchor="bottom" id="Messages" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.4387292" side_tool="true" weight="0.27062705" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.5612708" weight="0.45379537" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.5763994" weight="0.6287129" />
+      <window_info anchor="bottom" id="Run" order="13" sideWeight="0.8593041" weight="0.5726073" />
+      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.5438729" weight="0.22112212" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.36956522" visible="true" weight="0.14069591" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
+      <window_info anchor="bottom" id="Find" order="3" sideWeight="0.49856734" weight="0.23170732" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" sideWeight="0.6304348" side_tool="true" weight="0.22768533" />
+      <window_info id="Favorites" order="2" sideWeight="0.47826087" side_tool="true" weight="0.22768533" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.81240547" weight="0.34983498" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="314" height="676" id="Documentation" order="5" side_tool="true" weight="0.3295129" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="0" weight="0.17491749" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.81240547" visible="true" weight="0.34983498" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.36956522" visible="true" weight="0.14069591" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.5612708" weight="0.45379537" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" sideWeight="0.6304348" side_tool="true" weight="0.22768533" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49498567" weight="0.28712872" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="13" sideWeight="0.8593041" weight="0.5726073" />
+      <window_info anchor="bottom" id="Find" order="3" sideWeight="0.49856734" weight="0.23170732" />
+      <window_info anchor="right" x="0" y="0" width="314" height="676" id="Documentation" order="5" side_tool="true" weight="0.3295129" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
+      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.5438729" weight="0.22112212" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.4387292" side_tool="true" weight="0.27062705" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.47826087" side_tool="true" weight="0.22768533" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Messages" order="1" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="0" weight="0.17491749" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.5763994" weight="0.6287129" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加templates" />
+    <MESSAGE value="登录页面的改造" />
+    <MESSAGE value="注册和登录的一些页面" />
+    <MESSAGE value="路径的集合配置和页码的生成" />
+    <MESSAGE value="优化项目新增功能" />
+    <MESSAGE value="项目的增删改功能完善了" />
+    <MESSAGE value="测试环境的增删改功能完善了" />
+    <MESSAGE value="删除全部的完成和测试用例的建表" />
+    <MESSAGE value="用例新增" />
+    <MESSAGE value="测试用例新增" />
+    <MESSAGE value="测试用例新增页面的改造" />
+    <MESSAGE value="启动时间的adb测试" />
+    <MESSAGE value="test" />
+    <MESSAGE value="改动注册的一些代码" />
+    <MESSAGE value="改动" />
+    <MESSAGE value="一条用例的执行成功。" />
+    <MESSAGE value="用例的执行成功。" />
+    <MESSAGE value="注册信息弹框问题修复" />
+    <MESSAGE value="修复" />
+    <MESSAGE value="完善用例运行，页面的情况" />
+    <MESSAGE value="服务返回的乱码解决，和页面js转义的输出显示" />
+    <MESSAGE value="更新" />
+    <MESSAGE value="递归算法，查找用例和匹配用例" />
+    <MESSAGE value="pip的第三方库" />
+    <option name="LAST_COMMIT_MESSAGE" value="pip的第三方库" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://E:/HttpRunnerManager/ApiManager/tasks.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="152" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="assert except_result in response.text " language="Python" />
+        <watch expression="response.status_code == 200" />
+        <watch expression=" assert except_result in response.text" />
+        <watch expression="type(e)" language="Python" />
+        <watch expression="str" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>TestCase.objects.get(id=3).case_id</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>TestCase.objects.get(id=3)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>TestCase.objects.get(3)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>type(testcaseInfo)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>response.content.decode(&quot;utf8&quot;,&quot;ignore&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>response.content</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>response.content.decode(&quot;utf8&quot;,&quot;ignore&quot;).encode(&quot;gbk&quot;,&quot;ignore&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>response.text.encode(&quot;gbk&quot;,&quot;ignore&quot;).decode(&quot;utf8&quot;,&quot;ignore&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>response.text.encode(&quot;gbk&quot;,&quot;ignore&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>response.text.encode(&quot;gbk&quot;).decode(&quot;gbk&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://D:/spider/lotterySpider.py" />
+    <entry file="file://$PROJECT_DIR$/InterfaceAutoTest/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="85" column="30" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python/Lib/distutils/command/register.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/project-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="74" column="69" lean-forward="true" selection-start-line="74" selection-start-column="69" selection-end-line="74" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="55" column="12" lean-forward="true" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTestManage/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1225">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceAutoTest/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceAutoTest/redirectHtml.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTestManage/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTestManage/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTestManage/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/HttpRunnerManager/static/assets/js/test.js" />
+    <entry file="file://$USER_HOME$/PycharmProjects/HttpRunnerManager/static/assets/css/admin.css" />
+    <entry file="file://$USER_HOME$/PycharmProjects/HttpRunnerManager/static/assets/css/common.css" />
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="156" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/lib/layui/css/modules/layer/default/layer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="1" column="8284" selection-start-line="1" selection-start-column="8284" selection-end-line="1" selection-end-column="8284" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/HttpRunnerManager/ApiManager/test.py" />
+    <entry file="file://C:/python/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/python/Lib/site-packages/django/core/handlers/base.py" />
+    <entry file="file://C:/python/Lib/site-packages/django/core/handlers/exception.py" />
+    <entry file="file://C:/python/Lib/site-packages/django/utils/deprecation.py" />
+    <entry file="file://C:/python/Lib/site-packages/django/db/models/fields/__init__.py" />
+    <entry file="file://C:/python/Lib/site-packages/django/db/models/__init__.py" />
+    <entry file="file://$USER_HOME$/PycharmProjects/HttpRunnerManager/ApiManager/tasks.py" />
+    <entry file="file://$USER_HOME$/PycharmProjects/HttpRunnerManager/ApiManager/models.py" />
+    <entry file="file://$USER_HOME$/PycharmProjects/HttpRunnerManager/ApiManager/utils/testcase.py" />
+    <entry file="file://C:/python/Lib/site-packages/django/db/models/query.py" />
+    <entry file="file://$USER_HOME$/PycharmProjects/HttpRunnerManager/ApiManager/views.py" />
+    <entry file="file://$USER_HOME$/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py" />
+    <entry file="file://C:/python/Lib/site-packages/django/contrib/admin/static/admin/js/vendor/jquery/jquery.js" />
+    <entry file="file://$PROJECT_DIR$/templates/project-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2919">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/121723227/builtins.py" />
+    <entry file="file://C:/python/Lib/urllib/parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTestManage/test.py" />
+    <entry file="file://$PROJECT_DIR$/templates/environ-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" column="107" selection-start-line="28" selection-start-column="107" selection-end-line="28" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/environ-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceAutoTest/activator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceAutoTest/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTestManage/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirement.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/script.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/all.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="100" column="30" selection-start-line="100" selection-start-column="16" selection-end-line="100" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1333">
+          <caret line="123" column="41" selection-start-line="123" selection-start-column="41" selection-end-line="123" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTestManage/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="80" column="29" lean-forward="true" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/testCase-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1000">
+          <caret line="173" column="9" selection-start-line="173" selection-start-column="9" selection-end-line="173" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/testcase-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="184" column="50" lean-forward="true" selection-start-line="184" selection-start-column="50" selection-end-line="184" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceTestManage/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="478" column="31" lean-forward="true" selection-start-line="478" selection-start-column="31" selection-end-line="478" selection-end-column="31" />
+          <folding>
+            <element signature="e#14#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
