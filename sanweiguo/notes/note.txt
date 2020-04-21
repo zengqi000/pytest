@@ -77,6 +77,8 @@ git config --global user.name "xxx"
 
 9.接下来把代码拉到git上面去：git push
 
+10.从git上把新代码更新下来：git pull
+
 
 
 
