@@ -14,7 +14,7 @@ from django.shortcuts import render,redirect
 from InterfaceTestManage.models import userInfo, project, Environment, TestCase
 from django.http import HttpResponseRedirect,JsonResponse,HttpResponse
 from django.utils.datastructures import MultiValueDictKeyError
-from django.core   import serializers
+from django.core import serializers
 
 from InterfaceTestManage.utils import loghelper
 
@@ -82,7 +82,12 @@ def login(request):
         else:
             print('用户名或密码错误')
             context = {'message':'用户名或密码错误'}
-            logger.info('用户名:{username}和密码:{password}存在错误啊！ '.format(username=username,password=password))
+            logger.info('用户名:{username}和密'
+                        ''
+                        ''
+                        ''
+                        ''
+                        '码:{password}存在错误啊！ '.format(username=username,password=password))
             loghelper.close_handler()
             return JsonResponse(context)
 
