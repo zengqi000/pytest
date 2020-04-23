@@ -52,6 +52,9 @@ python manage.py makemigrations
 python manage.py migrate
 
 
+
+
+
 git 上传文件到远程服务器
 在提交之前告诉git你是谁？
 
