@@ -1,14 +1,18 @@
-数据库迁移：python manage.py makemigrations
+﻿数据库迁移：python manage.py makemigrations
             python manage.py migrate
 腾讯云coding
 https://guowydev.coding.net/user
+100012439416
 zengqi
-Zzengqi!123
+Zzengqi!！123
 
-数据库
+数据库dev
 地址：sh-cdb-llbubds4.sql.tencentcdb.com:61278
 用户名：guowy_test
 密码：DNwEboyQjq7kM7JR
+sit
+外网：sh-cdb-n42cvl0s.sql.tencentcdb.com:61191
+开发帐号：guowy_test,密码：SNBT3xrezKvvyaVG
 
 pip install  -i "https://pypi.doubanio.com/simple/" requests
 并发
@@ -58,8 +62,8 @@ python manage.py migrate
 git 上传文件到远程服务器
 在提交之前告诉git你是谁？
 
-git config --global user.email "xxx@xx.com”
-git config --global user.name "xxx"
+git config --global user.email "805117377@qq.com”
+git config --global user.name "zengqi000"
 1.在git服务器上新建一个项目
 
 2. 本地初始化仓库
@@ -104,3 +108,23 @@ email：zengqi@yeechoo.com
 805117377@qq.com
 zengqi000
 Zzengqi123
+
+jenkins
+  cengqi  123456
+  
+ 
+ cengqi@sanweiguoye.onaliyun.com
+ Zzengqi1234
+
+
+# EHR
+http://212.64.65.77:31595/#/employee-number
+# 权限
+http://212.64.65.77:31181/#/user/authority
+#测试日志
+http://111.229.43.116:5601/app/kibana#/discover?_g=()&_a=(columns:!(env,app,level,hostname,thread,msg),index:'86585aa0-8767-11ea-bd6d-e7fff32d2b77',interval:auto,query:(language:kuery,query:''),sort:!(!('@timestamp',desc)))
+
+
+
+测试文档：
+需求澄清--会议纪要

@@ -1,0 +1,18 @@
+{
+    "json.schemas": [
+      {
+        "fileMatch": [
+          "cypress.json"
+        ],
+        "url": "https://on.cypress.io/cypress.schema.json"
+      }
+    ],
+    "baseUrl":"http://212.64.65.77:31595/#/org-structure",
+    "viewportWidth": 1440,
+    "viewportHeight": 960,
+    "chromeWebSecurity": false,
+    "requestTimeout": 10000,
+    "defaultCommandTimeout": 10000
+
+
+}
