@@ -23,79 +23,79 @@ describe('权限系统UI自动化测试', function () {
         "成","夹","轨","邪","划","迈","毕","至","此","贞","师","尘","尖","劣","光","当","早","吐","吓","虫","曲","团","同","吊",
         "吃","因","吸","吗","屿","帆","岁","回","岂","刚","则","肉","网","年","朱","先","丢","舌","竹","迁","乔","伟","传","乒",
         "乓","休","伍","伏","优","伐","延","件","任","伤","价","份","华","仰","仿","伙","伪","自","血","向","似","后","行","舟"]
-    // it('管理员权限-角色管理-新增-修改-删除', function(){
-    //     //点击管理员权限
-    //     cy.get('.ivu-menu-submenu-title').contains('管理员权限').click() 
-    //     //-----新增角色-----      
-    //     //点击角色管理
-    //     cy.get('.ivu-menu-item').contains('角色管理').click()
-    //     cy.get('.ivu-menu-item').parent('角色管理').should('not.contain','断言通过')
-    //     //点击添加角色
-    //     cy.get('.add-btn > .ivu-btn > span').contains('添加角色').click()
-        
-    //     //输入角色名称和角色描述
-    //     cy.contains('删除')
-    //     var name="测试"+myList[r]+myList[r1]
-    //     cy.get('.modal-form > :nth-child(1) > .ivu-form-item-content > .ivu-input-wrapper > .ivu-input').type(name)
-    //     cy.get(':nth-child(2) > .ivu-form-item-content > .ivu-input-wrapper > .ivu-input').type('自动化测试')
-    //     //点击确定
-    //     cy.get('.modal-form > .btns > .ivu-btn-success > span').click()
-
-        // //-----查看角色-----
-        // //点击查看
-        // cy.get(':nth-child(1) > .ivu-table-column-RTEZWZ > .ivu-table-cell > .ivu-row > :nth-child(1) > a').click()
-        // //cy.get('.ivu-row > :nth-child(1) > a').click()
-        // //点击取消
-        // cy.get('.role-auth-modal-wrap > .btns > .btn').click()
-        // //----修改角色-----
-        // //点击修改
-        // cy.get(':nth-child(1) > .ivu-table-column-N2yaq7 > .ivu-table-cell > .ivu-row > .ivu-col-push-2 > a').click
-        // //cy.get('.ivu-col-push-2 > a').click()
-        // //修改角色名称
-        // cy.get('.modal-form > :nth-child(1) > .ivu-form-item-content > .ivu-input-wrapper > .ivu-input').type("修改")
-        // //点击确定
-        // cy.get('.modal-form > .btns > .ivu-btn-success > span').click()
-        // // -----删除角色----
-        // 点击删除
-        // cy.contains('删除').click()
-        //  //确定删除操作
-        // cy.get('.ivu-btn-primary').click()
-
-
-
-
-        
-        
-    // })
-
-    // it('管理员功能权限-添加子分类-删除', function () {
-    //     //点击管理员权限
-    //     cy.get('.ivu-menu-submenu-title').contains('管理员权限').click()         
-    //     //点击管理员功能权限
-    //     cy.get('.ivu-menu-item').contains('管理员功能权限').click()
-    //     //添加子分类
-    //     cy.get('.btn-wrap > .btn').contains("添加子分类").click()
-    //     //输入分类名称
-    //     var fenlei = '自动化测试'+myList[r]+myList[r1]
-    //     cy.get('.category > .ivu-form > .ivu-form-item-required > .ivu-form-item-content > .ivu-input-wrapper > .ivu-input').type(fenlei)
-    //     //输入备注
-    //     cy.get('.category > .ivu-form > .remark > .ivu-form-item-content > .ivu-input-wrapper > .ivu-input').type("自动化测试")
-    //     //点击确定
-    //     cy.get('[data-v-6cbb5df7=""] > .ivu-modal-wrap > .ivu-modal > .ivu-modal-content > .ivu-modal-footer > .ivu-btn-primary').click()
-    //     //删除操作
-    //     cy.contains(fenlei).click()
-    //     cy.get('.ivu-btn-error').click()
-    //     cy.get('.ivu-modal-confirm-footer > .ivu-btn-primary').click()
-    // })
-
     it('管理员权限-角色管理-新增-修改-删除', function(){
-        cy.get(':nth-child(53) > li > .ivu-tree-title > span').click()
-        cy.get('.btn-wrap > :nth-child(4)').click()
-        cy.get('.ivu-select-input').click()
-        cy.get('.ivu-modal-body>.auth-modal>.ivu-form-label-right > [data-v-f9f1805a=""][data-v-f9f1805a=""]>.ivu-form-item>.ivu-form-item-content>.ivu-select-default>.ivu-select-dropdown>.ivu-select-dropdown-list > li:nth-child(3)')
-        .click().eq(1).click()
+        //点击管理员权限
+        cy.get('.ivu-menu-submenu-title').contains('管理员权限').click() 
+        //-----新增角色-----      
+        //点击角色管理
+        cy.get('.ivu-menu-item').contains('角色管理').click()
+        cy.get('.ivu-menu-item').parent('角色管理').should('not.contain','断言通过')
+        //点击添加角色
+        cy.get('.add-btn > .ivu-btn > span').contains('添加角色').click()
+        
+        //输入角色名称和角色描述
+        cy.contains('删除')
+        var name="测试"+myList[r]+myList[r1]
+        cy.get('.modal-form > :nth-child(1) > .ivu-form-item-content > .ivu-input-wrapper > .ivu-input').type(name)
+        cy.get(':nth-child(2) > .ivu-form-item-content > .ivu-input-wrapper > .ivu-input').type('自动化测试')
+        //点击确定
+        cy.get('.modal-form > .btns > .ivu-btn-success > span').click()
 
+        //-----查看角色-----
+        //点击查看
+        cy.get(':nth-child(1) > .ivu-table-column-RTEZWZ > .ivu-table-cell > .ivu-row > :nth-child(1) > a').click()
+        //cy.get('.ivu-row > :nth-child(1) > a').click()
+        //点击取消
+        cy.get('.role-auth-modal-wrap > .btns > .btn').click()
+        //----修改角色-----
+        //点击修改
+        cy.get(':nth-child(1) > .ivu-table-column-N2yaq7 > .ivu-table-cell > .ivu-row > .ivu-col-push-2 > a').click
+        //cy.get('.ivu-col-push-2 > a').click()
+        //修改角色名称
+        cy.get('.modal-form > :nth-child(1) > .ivu-form-item-content > .ivu-input-wrapper > .ivu-input').type("修改")
+        //点击确定
+        cy.get('.modal-form > .btns > .ivu-btn-success > span').click()
+        // -----删除角色----
+        点击删除
+        cy.contains('删除').click()
+         //确定删除操作
+        cy.get('.ivu-btn-primary').click()
+
+
+
+
+        
+        
     })
+
+    it('管理员功能权限-添加子分类-删除', function () {
+        //点击管理员权限
+        cy.get('.ivu-menu-submenu-title').contains('管理员权限').click()         
+        //点击管理员功能权限
+        cy.get('.ivu-menu-item').contains('管理员功能权限').click()
+        //添加子分类
+        cy.get('.btn-wrap > .btn').contains("添加子分类").click()
+        //输入分类名称
+        var fenlei = '自动化测试'+myList[r]+myList[r1]
+        cy.get('.category > .ivu-form > .ivu-form-item-required > .ivu-form-item-content > .ivu-input-wrapper > .ivu-input').type(fenlei)
+        //输入备注
+        cy.get('.category > .ivu-form > .remark > .ivu-form-item-content > .ivu-input-wrapper > .ivu-input').type("自动化测试")
+        //点击确定
+        cy.get('[data-v-6cbb5df7=""] > .ivu-modal-wrap > .ivu-modal > .ivu-modal-content > .ivu-modal-footer > .ivu-btn-primary').click()
+        //删除操作
+        cy.contains(fenlei).click()
+        cy.get('.ivu-btn-error').click()
+        cy.get('.ivu-modal-confirm-footer > .ivu-btn-primary').click()
+    })
+
+    // it('管理员权限-角色管理-新增-修改-删除', function(){
+    //     cy.get(':nth-child(53) > li > .ivu-tree-title > span').click()
+    //     cy.get('.btn-wrap > :nth-child(4)').click()
+    //     cy.get('.ivu-select-input').click()
+    //     cy.get('.ivu-modal-body>.auth-modal>.ivu-form-label-right > [data-v-f9f1805a=""][data-v-f9f1805a=""]>.ivu-form-item>.ivu-form-item-content>.ivu-select-default>.ivu-select-dropdown>.ivu-select-dropdown-list > li:nth-child(3)')
+    //     .click().eq(1).click()
+
+    // })
 
 
 })

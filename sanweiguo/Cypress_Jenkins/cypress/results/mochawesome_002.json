@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-05-08T08:48:28.676Z",
+    "end": "2020-05-08T08:48:33.435Z",
+    "duration": 4759,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "16f369dc-231b-4f86-9a9f-8731b10f1206",
+      "title": "",
+      "fullFile": "cypress\\integration\\ehr.js",
+      "file": "cypress\\integration\\ehr.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "985927c4-e1e2-4de1-9bc0-a9f8a1286e79",
+          "title": "EHR系统",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "组织架构-创建-修改-删除机构分类",
+              "fullTitle": "EHR系统 组织架构-创建-修改-删除机构分类",
+              "timedOut": null,
+              "duration": 4672,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var name = '分类' + this.data.myList[r11] + this.data.myList[r5];\nvar beizhu = \"备注\" + this.data.myList[r5] + this.data.myList[r1];\ncy.createOrgCategory(name, beizhu); //创建机构分类\ncy.contains('修改').click(); //修改\ncy.get('.ivu-form-item-required > .ivu-form-item-content > .ivu-input-wrapper > .ivu-input').clear().type(name); //分类名称\ncy.get(':nth-child(2) > .ivu-form-item-content > .ivu-input-wrapper > .ivu-input').clear().type(beizhu);\ncy.get('.ivu-btn-primary').click(); //点击确定\ncy.contains('修改成功');\ncy.deleteOrgCategory();\ncy.contains('删除成功');",
+              "err": {},
+              "uuid": "f29c9f39-8940-459c-94a5-c2f3a9971eb5",
+              "parentUUID": "985927c4-e1e2-4de1-9bc0-a9f8a1286e79",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f29c9f39-8940-459c-94a5-c2f3a9971eb5"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4672,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}

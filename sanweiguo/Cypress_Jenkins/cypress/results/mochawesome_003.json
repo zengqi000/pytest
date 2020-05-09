@@ -1,0 +1,129 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 1,
+    "pending": 0,
+    "failures": 1,
+    "start": "2020-05-08T09:01:17.580Z",
+    "end": "2020-05-08T09:01:23.802Z",
+    "duration": 6222,
+    "testsRegistered": 2,
+    "passPercent": 50,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "9dc3a9a7-dae3-414e-9421-862145831eb7",
+      "title": "",
+      "fullFile": "cypress\\integration\\auth.js",
+      "file": "cypress\\integration\\auth.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ab4383b7-c977-4878-9fed-78cb0aa22de4",
+          "title": "权限系统UI自动化测试",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "管理员权限-角色管理-新增-修改-删除",
+              "fullTitle": "权限系统UI自动化测试 管理员权限-角色管理-新增-修改-删除",
+              "timedOut": null,
+              "duration": 2173,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "//点击管理员权限\ncy.get('.ivu-menu-submenu-title').contains('管理员权限').click(); //-----新增角色-----      \n//点击角色管理\ncy.get('.ivu-menu-item').contains('角色管理').click();\ncy.get('.ivu-menu-item').parent('角色管理').should('not.contain', '断言通过'); //点击添加角色\ncy.get('.add-btn > .ivu-btn > span').contains('添加角色').click(); //输入角色名称和角色描述\ncy.contains('删除');\nvar name = \"测试\" + myList[r] + myList[r1];\ncy.get('.modal-form > :nth-child(1) > .ivu-form-item-content > .ivu-input-wrapper > .ivu-input').type(name);\ncy.get(':nth-child(2) > .ivu-form-item-content > .ivu-input-wrapper > .ivu-input').type('自动化测试'); //点击确定\ncy.get('.modal-form > .btns > .ivu-btn-success > span').click(); //-----查看角色-----\n//点击查看\ncy.get(':nth-child(1) > .ivu-table-column-RTEZWZ > .ivu-table-cell > .ivu-row > :nth-child(1) > a').click(); //cy.get('.ivu-row > :nth-child(1) > a').click()\n//点击取消\ncy.get('.role-auth-modal-wrap > .btns > .btn').click(); //----修改角色-----\n//点击修改\ncy.get(':nth-child(1) > .ivu-table-column-N2yaq7 > .ivu-table-cell > .ivu-row > .ivu-col-push-2 > a').click; //cy.get('.ivu-col-push-2 > a').click()\n//修改角色名称\ncy.get('.modal-form > :nth-child(1) > .ivu-form-item-content > .ivu-input-wrapper > .ivu-input').type(\"修改\"); //点击确定\ncy.get('.modal-form > .btns > .ivu-btn-success > span').click(); // -----删除角色----\n点击删除;\ncy.contains('删除').click(); //确定删除操作\ncy.get('.ivu-btn-primary').click();",
+              "err": {
+                "message": "ReferenceError: 点击删除 is not defined",
+                "estack": "ReferenceError: 点击删除 is not defined\n    at Context.<anonymous> (http://212.64.65.77:31181/__cypress/tests?p=cypress\\integration\\auth.js-187:45:5)",
+                "diff": null
+              },
+              "uuid": "39fe3183-a682-40cd-b4d7-86b0f13f9950",
+              "parentUUID": "ab4383b7-c977-4878-9fed-78cb0aa22de4",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "管理员功能权限-添加子分类-删除",
+              "fullTitle": "权限系统UI自动化测试 管理员功能权限-添加子分类-删除",
+              "timedOut": null,
+              "duration": 2548,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//点击管理员权限\ncy.get('.ivu-menu-submenu-title').contains('管理员权限').click(); //点击管理员功能权限\ncy.get('.ivu-menu-item').contains('管理员功能权限').click(); //添加子分类\ncy.get('.btn-wrap > .btn').contains(\"添加子分类\").click(); //输入分类名称\nvar fenlei = '自动化测试' + myList[r] + myList[r1];\ncy.get('.category > .ivu-form > .ivu-form-item-required > .ivu-form-item-content > .ivu-input-wrapper > .ivu-input').type(fenlei); //输入备注\ncy.get('.category > .ivu-form > .remark > .ivu-form-item-content > .ivu-input-wrapper > .ivu-input').type(\"自动化测试\"); //点击确定\ncy.get('[data-v-6cbb5df7=\"\"] > .ivu-modal-wrap > .ivu-modal > .ivu-modal-content > .ivu-modal-footer > .ivu-btn-primary').click(); //删除操作\ncy.contains(fenlei).click();\ncy.get('.ivu-btn-error').click();\ncy.get('.ivu-modal-confirm-footer > .ivu-btn-primary').click();",
+              "err": {},
+              "uuid": "76950b45-8dbf-4580-a2ef-749f0117861f",
+              "parentUUID": "ab4383b7-c977-4878-9fed-78cb0aa22de4",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "76950b45-8dbf-4580-a2ef-749f0117861f"
+          ],
+          "failures": [
+            "39fe3183-a682-40cd-b4d7-86b0f13f9950"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 4721,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}

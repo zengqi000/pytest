@@ -16,8 +16,9 @@ describe('EHR系统', function() {
         cy.visit('/')   //访问页面
         cy.wait(10)
         cy.fixture('data.json').as('data')
+        
     })    
-    it('创建-修改-删除机构分类',function(){
+    it('组织架构-创建-修改-删除机构分类',function(){
         var name = '分类'+this.data.myList[r11]+this.data.myList[r5]
         var beizhu = "备注"+this.data.myList[r5]+this.data.myList[r1]
         cy.createOrgCategory(name,beizhu) //创建机构分类
@@ -29,7 +30,7 @@ describe('EHR系统', function() {
         cy.deleteOrgCategory()
         cy.contains('删除成功')
     })  
-    it('创建机构分类时分类名称相同', function(){   
+    it('组织架构-创建机构分类时分类名称相同', function(){   
         var name = '分类'+this.data.myList[r2]+this.data.myList[r5]
         var beizhu = "备注"+this.data.myList[r3]+this.data.myList[r1]
         var beizhu1 = "备注"+this.data.myList[r6]+this.data.myList[r1]
@@ -43,7 +44,7 @@ describe('EHR系统', function() {
         cy.deleteOrgCategory()
         cy.contains('删除成功')
     })
-    it('创建-修改-删除子机构',function(){
+    it('组织架构-创建-修改-删除子机构',function(){
         var jigou = "机构"+this.data.myList[r1]+this.data.myList[r] //子机构名称
         var name = "分类"+this.data.myList[r1]+this.data.myList[r]  //分类名称
         var beizhu = "备注"+this.data.myList[r3]+this.data.myList[r1] 
@@ -123,7 +124,7 @@ describe('EHR系统', function() {
         cy.get('.empower > .ivu-modal-wrap > .ivu-modal > .ivu-modal-content > .ivu-modal-footer > .ivu-btn-primary').click()
     })
 
-    it('员工离职、查看离职信息',function(){
+    it('员工管理-员工离职、查看离职信息',function(){
         cy.contains('员工管理').click()
         cy.wait(6)
         //点击第一位员工离职

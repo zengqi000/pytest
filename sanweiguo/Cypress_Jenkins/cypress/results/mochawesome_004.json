@@ -1,0 +1,228 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 7,
+    "passes": 5,
+    "pending": 0,
+    "failures": 2,
+    "start": "2020-05-08T09:01:28.459Z",
+    "end": "2020-05-08T09:02:25.404Z",
+    "duration": 56945,
+    "testsRegistered": 7,
+    "passPercent": 71.42857142857143,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "3e4b5f42-d2e4-463c-aa3d-3be14365f3f8",
+      "title": "",
+      "fullFile": "cypress\\integration\\ehr.js",
+      "file": "cypress\\integration\\ehr.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "3007d7b7-735c-4d54-a5ae-96ba22634bad",
+          "title": "EHR系统",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "组织架构-创建-修改-删除机构分类",
+              "fullTitle": "EHR系统 组织架构-创建-修改-删除机构分类",
+              "timedOut": null,
+              "duration": 4954,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var name = '分类' + this.data.myList[r11] + this.data.myList[r5];\nvar beizhu = \"备注\" + this.data.myList[r5] + this.data.myList[r1];\ncy.createOrgCategory(name, beizhu); //创建机构分类\ncy.contains('修改').click(); //修改\ncy.get('.ivu-form-item-required > .ivu-form-item-content > .ivu-input-wrapper > .ivu-input').clear().type(name); //分类名称\ncy.get(':nth-child(2) > .ivu-form-item-content > .ivu-input-wrapper > .ivu-input').clear().type(beizhu);\ncy.get('.ivu-btn-primary').click(); //点击确定\ncy.contains('修改成功');\ncy.deleteOrgCategory();\ncy.contains('删除成功');",
+              "err": {},
+              "uuid": "ede10240-9ead-46de-bf55-8e99489ed2e9",
+              "parentUUID": "3007d7b7-735c-4d54-a5ae-96ba22634bad",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "组织架构-创建机构分类时分类名称相同",
+              "fullTitle": "EHR系统 组织架构-创建机构分类时分类名称相同",
+              "timedOut": null,
+              "duration": 3059,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var name = '分类' + this.data.myList[r2] + this.data.myList[r5];\nvar beizhu = \"备注\" + this.data.myList[r3] + this.data.myList[r1];\nvar beizhu1 = \"备注\" + this.data.myList[r6] + this.data.myList[r1];\ncy.createOrgCategory(name, beizhu); //创建一个机构分类\ncy.createOrgCategory(name, beizhu); //再创建相同的机构分类\n//点击取消\ncy.get('.ivu-btn-text').click(); //断言确定按钮存在\ncy.get('.ivu-btn-primary').should('be.visible'); //删除机构分类   \ncy.deleteOrgCategory();\ncy.contains('删除成功');",
+              "err": {},
+              "uuid": "da4e6c11-12e3-4cd6-bbbb-b2bda85f8477",
+              "parentUUID": "3007d7b7-735c-4d54-a5ae-96ba22634bad",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "组织架构-创建-修改-删除子机构",
+              "fullTitle": "EHR系统 组织架构-创建-修改-删除子机构",
+              "timedOut": null,
+              "duration": 13381,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "var jigou = \"机构\" + this.data.myList[r1] + this.data.myList[r]; //子机构名称\nvar name = \"分类\" + this.data.myList[r1] + this.data.myList[r]; //分类名称\nvar beizhu = \"备注\" + this.data.myList[r3] + this.data.myList[r1];\nvar num = Math.floor(Math.random() * 10);\ncy.createZiJigou(name, beizhu, jigou, num); //创建子机构\ncy.get('.search-wrap > .input > .ivu-input').type(jigou); //搜索框输入\ncy.get('.search-wrap > .ivu-btn-success').click(); //搜索添加的子机构\n//修改\ncy.contains('修改').click(); //输入新的机构名称\nvar editName = \"测试\" + this.data.myList[r1] + this.data.myList[r4];\ncy.get('.edit-suborg input[placeholder=\"请输入机构名称\"]').clear().type(editName); //点击确定\ncy.get('.edit-suborg > .ivu-modal-wrap > .ivu-modal > .ivu-modal-content > .ivu-modal-footer > .ivu-btn-primary').click(); //断言\ncy.get('.search-wrap > .input > .ivu-input').clear().type(editName); //搜索框输入\ncy.get('.search-wrap > .ivu-btn-success').click(); //搜索添加的子机构\ncy.get('.ivu-table-row > td:nth-child(3) > .ivu-table-cell > .ivu-table-cell-tooltip > .ivu-tooltip-rel > .ivu-table-cell-tooltip-content').should('contain', editName);\ncy.deleteZiJigou(editName);",
+              "err": {
+                "message": "CypressError: Timed out retrying: `cy.type()` failed because this element:\n\n`<input autocomplete=\"off\" spellcheck=\"false\" type=\"text\" placeholder=\"请输入机构名称\" class=\"ivu-input ivu-input-default\">`\n\nis being covered by another element:\n\n`<div class=\"ivu-modal-wrap\" style=\"z-index: 1025;\">...</div>`\n\nFix this problem, or use {force: true} to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with",
+                "estack": "CypressError: Timed out retrying: `cy.type()` failed because this element:\n\n`<input autocomplete=\"off\" spellcheck=\"false\" type=\"text\" placeholder=\"请输入机构名称\" class=\"ivu-input ivu-input-default\">`\n\nis being covered by another element:\n\n`<div class=\"ivu-modal-wrap\" style=\"z-index: 1025;\">...</div>`\n\nFix this problem, or use {force: true} to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with\n    at cypressErr (http://212.64.65.77:31595/__cypress/runner/cypress_runner.js:146621:16)\n    at cypressErrByPath (http://212.64.65.77:31595/__cypress/runner/cypress_runner.js:146630:10)\n    at Object.throwErrByPath (http://212.64.65.77:31595/__cypress/runner/cypress_runner.js:146593:11)\n    at Object.ensureDescendents (http://212.64.65.77:31595/__cypress/runner/cypress_runner.js:137729:26)\n    at ensureDescendents (http://212.64.65.77:31595/__cypress/runner/cypress_runner.js:127254:8)\n    at ensureDescendentsAndScroll (http://212.64.65.77:31595/__cypress/runner/cypress_runner.js:127261:14)\n    at ensureElIsNotCovered (http://212.64.65.77:31595/__cypress/runner/cypress_runner.js:127390:5)\n    at runAllChecks (http://212.64.65.77:31595/__cypress/runner/cypress_runner.js:127527:52)\n    at retryActionability (http://212.64.65.77:31595/__cypress/runner/cypress_runner.js:127542:16)\n    at tryCatcher (http://212.64.65.77:31595/__cypress/runner/cypress_runner.js:9065:23)\n    at Function.Promise.attempt.Promise.try (http://212.64.65.77:31595/__cypress/runner/cypress_runner.js:6339:29)\n    at tryFn (http://212.64.65.77:31595/__cypress/runner/cypress_runner.js:140680:21)\n    at whenStable (http://212.64.65.77:31595/__cypress/runner/cypress_runner.js:140715:12)\n    at http://212.64.65.77:31595/__cypress/runner/cypress_runner.js:140259:16\n    at tryCatcher (http://212.64.65.77:31595/__cypress/runner/cypress_runner.js:9065:23)\n    at Promise._settlePromiseFromHandler (http://212.64.65.77:31595/__cypress/runner/cypress_runner.js:7000:31)",
+                "diff": null
+              },
+              "uuid": "6fbd9c1e-44e3-492e-a7ac-475f8ae23460",
+              "parentUUID": "3007d7b7-735c-4d54-a5ae-96ba22634bad",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "员工管理-新增员工分类时分类名称相同",
+              "fullTitle": "EHR系统 员工管理-新增员工分类时分类名称相同",
+              "timedOut": null,
+              "duration": 3020,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var fenlei = \"测试\" + this.data.myList[r] + this.data.myList[r4];\nvar beizhu = \"测试\" + this.data.myList[r] + this.data.myList[r4];\ncy.createEmpCategory(fenlei, beizhu);",
+              "err": {},
+              "uuid": "b0903ba8-0fdf-4276-a98b-d675ef28b60b",
+              "parentUUID": "3007d7b7-735c-4d54-a5ae-96ba22634bad",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "员工管理-新增、修改、查看员工",
+              "fullTitle": "EHR系统 员工管理-新增、修改、查看员工",
+              "timedOut": null,
+              "duration": 12775,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var username = \"张\" + this.data.myList[r2] + this.data.myList[r4];\nvar zhiji = \"职级\" + this.data.myList[r2] + this.data.myList[r4];\nvar gangwei = \"岗位\" + this.data.myList[r2] + this.data.myList[r4];\nvar num = '135' + Math.floor(Math.random() * 100000000);\nvar phone = Date.parse(new Date()) / 100;\nwindow.phone = phone;\nvar username1 = \"张\" + this.data.myList[r2] + this.data.myList[r5];\nwindow.username1 = username1;\nvar fenlei = \"测试\" + this.data.myList[r] + this.data.myList[r4];\nvar beizhu = \"测试\" + this.data.myList[r] + this.data.myList[r4];\ncy.createRmp(fenlei, beizhu, username, zhiji, gangwei, num, phone); //查看员工\ncy.contains('查看').click();\ncy.get(':nth-child(1) > :nth-child(1) > .val').should('contain', username); //修改姓名\ncy.contains('员工管理').click();\ncy.contains('修改').click(); //员工姓名\ncy.get(':nth-child(1) > :nth-child(1) > .form-item > .ivu-form-item-content > .form-control > .ivu-input').clear().type(username1); //确定提交\ncy.get('.btn').click();\ncy.contains('查看').click();\ncy.get(':nth-child(1) > :nth-child(1) > .val').should('contain', username1);",
+              "err": {},
+              "uuid": "ceed25f1-3f43-4191-902c-1f18325c68ae",
+              "parentUUID": "3007d7b7-735c-4d54-a5ae-96ba22634bad",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "员工账号-停用-启用-授权-重置密码",
+              "fullTitle": "EHR系统 员工账号-停用-启用-授权-重置密码",
+              "timedOut": null,
+              "duration": 4320,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.contains('员工账号').click(); //输入新增的员工账号\ncy.get(':nth-child(3) > .ivu-input').click().type(phone); //点击查询\ncy.get(':nth-child(9) > .ivu-btn-success').click(); //停用\ncy.get('.danger').contains('停用').click(); //点击确定停用\ncy.get('.ivu-modal-confirm-footer > .ivu-btn-primary').click(); //启用\ncy.get('.ivu-table-row >:nth-child(10)> .ivu-table-cell > div > :nth-child(1)').click();\ncy.get('.ivu-modal-confirm-footer > .ivu-btn-primary').click(); //重置密码\ncy.get('.ivu-table-cell > div > :nth-child(3)').click();\ncy.get('.ivu-modal-confirm-footer > .ivu-btn-primary').click(); //授权\ncy.get('.ivu-table-cell > div > :nth-child(2)').click(); //勾选第一个角色名称\ncy.get(':nth-child(2) > .ivu-form-item-content > .ivu-checkbox-group > :nth-child(1)').click();\ncy.get('.empower > .ivu-modal-wrap > .ivu-modal > .ivu-modal-content > .ivu-modal-footer > .ivu-btn-primary').click();",
+              "err": {},
+              "uuid": "2c7fb71e-5d99-4061-b876-c7915b8fee47",
+              "parentUUID": "3007d7b7-735c-4d54-a5ae-96ba22634bad",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "员工管理-员工离职、查看离职信息",
+              "fullTitle": "EHR系统 员工管理-员工离职、查看离职信息",
+              "timedOut": null,
+              "duration": 15222,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.contains('员工管理').click();\ncy.wait(6); //点击第一位员工离职\ncy.get(':nth-child(1) > td:nth-child(10)> .ivu-table-cell > .ivu-row > :nth-child(2) > :nth-child(2) > .btn-danger').click(); //选中离职类型\ncy.get('.ivu-select-placeholder').click();\ncy.contains('主动离职').click(); //申请日期\ncy.get(':nth-child(1) > :nth-child(2) > .form-item > .ivu-form-item-content > .form-control > .ivu-date-picker-rel > .ivu-input-wrapper > .ivu-input').click().type('2020-05-04').click();\ncy.get('.bread-crumb').click(); //最后工作日期\ncy.get(':nth-child(2) > :nth-child(2) > .form-item > .ivu-form-item-content > .form-control > .ivu-date-picker-rel > .ivu-input-wrapper > .ivu-input').click().type('2020-05-04').click();\ncy.get('.bread-crumb').click(); //离职日期\ncy.get(':nth-child(1) > .form-item > .ivu-form-item-content > .form-control > .ivu-date-picker-rel > .ivu-input-wrapper > .ivu-input').click().type('2020-05-04').click();\ncy.get('.bread-crumb').click(); //薪资结算日期\ncy.get(':nth-child(3) > :nth-child(2) > .form-item > .ivu-form-item-content > .form-control > .ivu-date-picker-rel > .ivu-input-wrapper > .ivu-input').click().type('2020-05-04').click();\ncy.get('.bread-crumb').click(); //离职原因\ncy.get(':nth-child(1) > .ivu-checkbox > .ivu-checkbox-input').click(); //确定提交\ncy.get('.btn').click(); //查看离职员工信息\ncy.visit('/'); //切换显示离职\ncy.get('.ivu-switch').click(); //点击查看\ncy.get(':nth-child(1) > td:nth-child(10)> .ivu-table-cell > .ivu-row > .ivu-col > a').click(); //点击离职信息\ncy.get('.ivu-tabs-nav > :nth-child(3)').click(); //断言\ncy.get('[style=\"visibility: visible;\"] > .card > .ivu-card-body > .base-info > :nth-child(1) > :nth-child(1) > .val').should('contain', username1);",
+              "err": {
+                "message": "AssertionError: Timed out retrying: Expected to find element: `.ivu-tabs-nav > :nth-child(3)`, but never found it.",
+                "estack": "AssertionError: Timed out retrying: Expected to find element: `.ivu-tabs-nav > :nth-child(3)`, but never found it.\n    at ensureExistence (http://212.64.65.77:31595/__cypress/runner/cypress_runner.js:137673:32)\n    at Object.ensureElExistence (http://212.64.65.77:31595/__cypress/runner/cypress_runner.js:137691:12)\n    at ensureExistence (http://212.64.65.77:31595/__cypress/runner/cypress_runner.js:127867:23)\n    at onFailFn (http://212.64.65.77:31595/__cypress/runner/cypress_runner.js:127905:9)\n    at tryCatcher (http://212.64.65.77:31595/__cypress/runner/cypress_runner.js:9065:23)\n    at Promise._settlePromiseFromHandler (http://212.64.65.77:31595/__cypress/runner/cypress_runner.js:7000:31)\n    at Promise._settlePromise (http://212.64.65.77:31595/__cypress/runner/cypress_runner.js:7057:18)\n    at Promise._settlePromise0 (http://212.64.65.77:31595/__cypress/runner/cypress_runner.js:7102:10)\n    at Promise._settlePromises (http://212.64.65.77:31595/__cypress/runner/cypress_runner.js:7178:18)\n    at _drainQueueStep (http://212.64.65.77:31595/__cypress/runner/cypress_runner.js:3772:12)\n    at _drainQueue (http://212.64.65.77:31595/__cypress/runner/cypress_runner.js:3765:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://212.64.65.77:31595/__cypress/runner/cypress_runner.js:3781:5)\n    at Async.drainQueues (http://212.64.65.77:31595/__cypress/runner/cypress_runner.js:3651:14)",
+                "diff": null
+              },
+              "uuid": "4a9d7c60-2922-482c-ace4-4adb75b078e4",
+              "parentUUID": "3007d7b7-735c-4d54-a5ae-96ba22634bad",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ede10240-9ead-46de-bf55-8e99489ed2e9",
+            "da4e6c11-12e3-4cd6-bbbb-b2bda85f8477",
+            "b0903ba8-0fdf-4276-a98b-d675ef28b60b",
+            "ceed25f1-3f43-4191-902c-1f18325c68ae",
+            "2c7fb71e-5d99-4061-b876-c7915b8fee47"
+          ],
+          "failures": [
+            "6fbd9c1e-44e3-492e-a7ac-475f8ae23460",
+            "4a9d7c60-2922-482c-ace4-4adb75b078e4"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 56731,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}

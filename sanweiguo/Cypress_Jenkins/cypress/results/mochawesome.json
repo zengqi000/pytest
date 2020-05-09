@@ -1,0 +1,109 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2020-05-08T08:47:40.254Z",
+    "end": "2020-05-08T08:47:45.031Z",
+    "duration": 4777,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "4448c072-bf28-4fb2-b7e9-c33f9b240404",
+      "title": "",
+      "fullFile": "cypress\\integration\\auth.js",
+      "file": "cypress\\integration\\auth.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "7ac8f585-1f82-4857-96bd-e06dfd4966e1",
+          "title": "权限系统UI自动化测试",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "管理员权限-角色管理-新增-修改-删除",
+              "fullTitle": "权限系统UI自动化测试 管理员权限-角色管理-新增-修改-删除",
+              "timedOut": null,
+              "duration": 3223,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.get(':nth-child(53) > li > .ivu-tree-title > span').click();\ncy.get('.btn-wrap > :nth-child(4)').click();\ncy.get('.ivu-select-input').click();\ncy.get('.ivu-modal-body>.auth-modal>.ivu-form-label-right > [data-v-f9f1805a=\"\"][data-v-f9f1805a=\"\"]>.ivu-form-item>.ivu-form-item-content>.ivu-select-default>.ivu-select-dropdown>.ivu-select-dropdown-list > li:nth-child(3)').click().eq(1).click();",
+              "err": {
+                "message": "CypressError: `cy.click()` can only be called on a single element. Your subject contained 2 elements. Pass `{ multiple: true }` if you want to serially click each element.\n\nhttps://on.cypress.io/click",
+                "estack": "CypressError: `cy.click()` can only be called on a single element. Your subject contained 2 elements. Pass `{ multiple: true }` if you want to serially click each element.\n\nhttps://on.cypress.io/click\n    at cypressErr (http://212.64.65.77:31181/__cypress/runner/cypress_runner.js:146621:16)\n    at cypressErrByPath (http://212.64.65.77:31181/__cypress/runner/cypress_runner.js:146630:10)\n    at Object.throwErrByPath (http://212.64.65.77:31181/__cypress/runner/cypress_runner.js:146593:11)\n    at mouseAction (http://212.64.65.77:31181/__cypress/runner/cypress_runner.js:129370:17)\n    at Context.click (http://212.64.65.77:31181/__cypress/runner/cypress_runner.js:129513:14)\n    at Context.<anonymous> (http://212.64.65.77:31181/__cypress/runner/cypress_runner.js:144927:21)\n    at http://212.64.65.77:31181/__cypress/runner/cypress_runner.js:144402:33\n    at tryCatcher (http://212.64.65.77:31181/__cypress/runner/cypress_runner.js:9065:23)\n    at Promise._settlePromiseFromHandler (http://212.64.65.77:31181/__cypress/runner/cypress_runner.js:7000:31)\n    at Promise._settlePromise (http://212.64.65.77:31181/__cypress/runner/cypress_runner.js:7057:18)\n    at Promise._settlePromiseCtx (http://212.64.65.77:31181/__cypress/runner/cypress_runner.js:7094:10)\n    at _drainQueueStep (http://212.64.65.77:31181/__cypress/runner/cypress_runner.js:3776:12)\n    at _drainQueue (http://212.64.65.77:31181/__cypress/runner/cypress_runner.js:3765:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://212.64.65.77:31181/__cypress/runner/cypress_runner.js:3781:5)\n    at Async.drainQueues (http://212.64.65.77:31181/__cypress/runner/cypress_runner.js:3651:14)",
+                "diff": null
+              },
+              "uuid": "010cdbf8-c487-4352-9b1a-4d5114927d65",
+              "parentUUID": "7ac8f585-1f82-4857-96bd-e06dfd4966e1",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "010cdbf8-c487-4352-9b1a-4d5114927d65"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 3223,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}
